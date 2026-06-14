@@ -1,36 +1,36 @@
-# Bengali NLP Sentiment Analyzer
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-An AI-powered web application for analyzing the sentiment of Bengali text (Positive, Negative, Neutral). This project is built using Streamlit and HuggingFace Transformers.
+## Getting Started
 
-## Features
-- Interactive Web Interface powered by Streamlit.
-- Uses `lxyuan/distilbert-base-multilingual-cased-sentiments-student`, a lightweight multilingual sentiment model optimized for performance and accuracy in languages including Bengali.
-- Displays confidence scores for each prediction.
+First, run the development server:
 
-## Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/mansib-0/Bengali-NLP-Sentiment-Analyzer.git
-cd Bengali-NLP-Sentiment-Analyzer
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-2. Create a virtual environment (optional but recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Usage
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Run the Streamlit application:
-```bash
-streamlit run app.py
-```
+## Learn More
 
-The application will open in your default web browser at `http://localhost:8501`.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,0 +1,7 @@
+INFO:     Will watch for changes in these directories: ['/Users/mansibsaiful/Downloads/PlannEd.-main/Bengali-NLP-Sentiment-Analyzer/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9933] using StatReload
+INFO:     Started server process [9936]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55124 - "POST /analyze HTTP/1.1" 200 OK
